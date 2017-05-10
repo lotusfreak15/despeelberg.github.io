@@ -16,7 +16,7 @@
 			mail($mijnemail, "Contact Page - De Speelberg - ".$Onderwerp, "Email van: ".$Naam."\r\n".$Bericht, $headers);
 		}
 	}else{
-		header("Location: index.php");
+		header("Location: index.html");
 }
 ?>
 <!DOCTYPE html>
@@ -60,12 +60,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">De Speelberg</a>
+          <a class="navbar-brand" href="index.html">De Speelberg</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-			<li><a href="index.php#info">Info</a></li>
-            <li><a href="#index.php#kalender">Kalender</a></li>
+			<li><a href="index.html#info">Info</a></li>
+            <li><a href="index.html#kalender">Kalender</a></li>
               <li><a href="https://www.facebook.com/speelpleinwerkingdespeelberg/" target="_blank">Facebook</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
